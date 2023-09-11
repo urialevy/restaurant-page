@@ -2,10 +2,14 @@ console.log('Hello from src!')
 
 export default function addContent() {
     const textNode = document.createElement('div')
-    textNode.innerHTML = `<h1>Thames.Mead</h1>
-    <img src="https://images.unsplash.com/photo-1584225064785-c62a8b43d148" style='width:50%;height:50%'>
+    textNode.id = 'main'
+    textNode.innerHTML = `<div id="menu"><div class="menuItem" id="about">About Us</div>
+    <div class="menuItem" id="history">Our History</div>
+    <div class="menuItem" id="contact">Contact</div></div>
+    <h1>Thames.mead</h1>
+    <img src="https://images.unsplash.com/photo-1584225064785-c62a8b43d148" style='height:800px;;object-fit:fill'>
     <h2>As simple as it sounds - mead,  from Thamesmead.</h2>
-    <p>Thamesmead has a history of mead making at the Lesnes Abbey. We bring this<img src="" alt=""> ancient tradition back to life, using modern tools!</p>`
+    <p>Thamesmead has a history of mead making at the Lesnes Abbey. We bring this ancient tradition back to life, using modern tools!</p></div>`
     document.getElementById('content').appendChild(textNode)
 }
 addContent()
