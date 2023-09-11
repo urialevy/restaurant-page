@@ -7,6 +7,5 @@ export default function addContent() {
     <h2>As simple as it sounds - mead,  from Thamesmead.</h2>
     <p>Thamesmead has a history of mead making at the Lesnes Abbey. We bring this<img src="" alt=""> ancient tradition back to life, using modern tools!</p>`
     document.getElementById('content').appendChild(textNode)
-    
 }
 addContent()

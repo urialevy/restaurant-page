@@ -1,9 +1,15 @@
 body {
     background-color: yellow;
     display: flex;
+    justify-content: space-around;
 }
 
 #content {
+    margin-top: 2rem;
+    width: 60%;
+    height: 100vh;
     display: flex;
     justify-content: space-around;
+    border-style: solid;
+    border-radius: 5%;
 }
