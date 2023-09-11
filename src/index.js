@@ -1,6 +1,6 @@
 console.log('Hello from src!')
 
-export default function addContent() {
+function addContent() {
     const textNode = document.createElement('div')
     textNode.id = 'main'
     textNode.innerHTML = `<div id="menu"><div class="menuItem" id="about">About Us</div>
