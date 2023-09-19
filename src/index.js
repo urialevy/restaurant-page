@@ -1,4 +1,4 @@
-export default function addContent() {
+ function addContent() {
     const textNode = document.createElement('div')
     textNode.id = 'main'
     textNode.innerHTML = `<div id="menu"><div class="menuItem" id="about">About Us</div>
@@ -10,4 +10,11 @@ export default function addContent() {
     <p>Thamesmead has a history of mead making at the Lesnes Abbey. We bring this ancient tradition back to life, using modern tools!</p></div>`
     document.getElementById('content').appendChild(textNode)
 }
+
+function createDiv() {
+    const divNode = document.createElement('div')
+    divNode.id='content'
+    document.body.appendChild(divNode)
+}
+createDiv()
 addContent()

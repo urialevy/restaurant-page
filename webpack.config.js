@@ -3,8 +3,7 @@ const path = require('path');
 module.exports = {
     mode:'development',
     entry: {
-      entry: './src/index.js',
-      about: './src/about.js'},
+      entry: './src/index.js'},
   devServer: {
     static: './dist',
   },
