@@ -9,8 +9,6 @@ body {
     width: 80%;
     display: flex;
     justify-content: space-around;
-    /* border-style: solid;
-    border-radius: 5%; */
     padding:  2rem 2rem 2rem 2rem;
 }
 
@@ -41,4 +39,16 @@ h1 {
     color: yellow;
     cursor:grab;
     
+}
+
+#pageContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-self: flex-start;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
 }
