@@ -1,9 +1,9 @@
- function addContent() {
+function addContent() {
     const textNode = document.createElement('div')
     textNode.id = 'main'
-    textNode.innerHTML = `<div id="menu"><div class="menuItem" id="about">About Us</div>
-    <div class="menuItem" id="history">Our History</div>
-    <div class="menuItem" id="contact">Contact</div></div>
+    textNode.innerHTML = `<div id="menu"><div class="menuItem" id="about"><button class='menuBtn'>About Us</button></div>
+    <div class="menuItem" id="history"><button class='menuBtn'>Our History</button></div>
+    <div class="menuItem" id="contact"><button class='menuBtn'>Contact</button></div></div>
     <h1>Thames.mead</h1>
     <img src="https://images.unsplash.com/photo-1584225064785-c62a8b43d148" style='height:800px;;object-fit:fill'>
     <h2>As simple as it sounds - mead,  from Thamesmead.</h2>
@@ -18,3 +18,5 @@ function createDiv() {
 }
 createDiv()
 addContent()
+import { aboutPg } from "./about"
+aboutPg()

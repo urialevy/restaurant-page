@@ -26,5 +26,19 @@ h1 {
 }
 
 .menuItem {
-    padding: 2rem 2rem 2rem 2rem
+    height: 5rem;
+    width: 10rem;
+    display: flex;
+    justify-self: center;
+}
+.menuBtn {
+    border: none;
+    background: none;
+    border-radius: 5%;
+}
+.menuBtn:hover{
+    background-color: black;
+    color: yellow;
+    cursor:grab;
+    
 }
