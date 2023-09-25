@@ -8,7 +8,7 @@ function addContent() {
     textNode.id = 'main'
     textNode.innerHTML = `<div id="menu"><div class="menuItem" id="homeBtn"><button class='menuBtn'>Home</button></div><div class="menuItem" id="about"><button class='menuBtn'>Mead Menu</button></div>
     <div class="menuItem" id="history"><button class='menuBtn'>Our History</button></div>
-    <div class="menuItem" id="contact"><button class='menuBtn'>Contact</button></div></div>
+    </div>
     <div id='pageContent'><h1>Thames.mead</h1>
     <h2>As simple as it sounds - mead,  from Thamesmead.</h2>
     <img src="https://images.unsplash.com/photo-1584225064785-c62a8b43d148" id='landingImg' style='height:450px;object-fit:contain'>
