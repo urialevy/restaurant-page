@@ -1,5 +1,7 @@
 import './style.css'
 import { aboutPg } from "./menu"
+import { historyPage } from './history'
+import { contactsUs } from './contact'
 
 function addContent() {
     const textNode = document.createElement('div')
@@ -9,7 +11,7 @@ function addContent() {
     <div class="menuItem" id="contact"><button class='menuBtn'>Contact</button></div></div>
     <div id='pageContent'><h1>Thames.mead</h1>
     <h2>As simple as it sounds - mead,  from Thamesmead.</h2>
-    <img src="https://images.unsplash.com/photo-1584225064785-c62a8b43d148" id='landingImg' style='height:450px;;object-fit:contain'>
+    <img src="https://images.unsplash.com/photo-1584225064785-c62a8b43d148" id='landingImg' style='height:450px;object-fit:contain'>
     <p>Thamesmead has a history of mead making at the Lesnes Abbey. We bring this ancient tradition back to life, using modern tools!</p></div>`
     document.getElementById('content').appendChild(textNode)
 }
@@ -35,3 +37,5 @@ createDiv()
 addContent()
 aboutPg()
 homeClick()
+historyPage()
+contactsUs()
