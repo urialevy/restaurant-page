@@ -4,7 +4,8 @@ export function aboutPg(){
         const mainBody = document.querySelector('#pageContent');
         mainBody.innerHTML = `<h1>The Mead Menu</h1>
         <h2>Bringing ancient traditions to life with modern tools.</h2>
-        <p>Honey wine - commonly called mead - is one of the first forms of alcohol consumed by humans. We are a collection of home brewers who try to share this ancient tradition with others, using modern tools. Our mead selection includes:</p>
+        <img src="https://images.unsplash.com/photo-1474314005122-3c07c4df1224" id='menuImg' style='height:450px;;object-fit:contain'>
+        <p>Honey wine - commonly called mead - is one of the first forms of alcohol consumed by humans. We are a collection of home brewers who try to share this ancient tradition with others, using modern tools. Our mead selection constantly updates, below is what we curently have on offer:</p>
         <div id="menu">
             <div id="meadList"><div class="header">Mead name</div><div class="header">Tasting notes</div><div class="header">ABV</div><div class="header">Price</div><div class="header">Bottle size</div>
             <div class="entry">"The Trappist"</div><div class="entry">Lemony, zesty with hints of spice</div><div class="entry">11.8%</div><div class="entry">£19.99</div><div class="entry">75cl</div>
