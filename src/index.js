@@ -20,3 +20,4 @@ createDiv()
 addContent()
 import { aboutPg } from "./about"
 aboutPg()
+import './style.css'

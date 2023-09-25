@@ -7,6 +7,14 @@ module.exports = {
       entry: './src/index.js',
       about:'./src/about.js'
     },
+    module: {
+      rules: [
+        {
+          test: /\.css$/i,
+          use: ['style-loader', 'css-loader'],
+        },
+      ],
+    },
   devtool: 'inline-source-map',
   devServer: {
     static: './dist',
