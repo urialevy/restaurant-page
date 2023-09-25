@@ -5,7 +5,9 @@ module.exports = {
     mode:'development',
     entry: {
       entry: './src/index.js',
-      menuu:'./src/menu.js'
+      menu:'./src/menu.js',
+      history: './src/history.js',
+      contact: './src/contact.js'
     },
     module: {
       rules: [
