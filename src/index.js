@@ -18,6 +18,6 @@ function createDiv() {
 }
 createDiv()
 addContent()
-import { aboutPg } from "./about"
+import { aboutPg } from "./menu"
 aboutPg()
 import './style.css'
