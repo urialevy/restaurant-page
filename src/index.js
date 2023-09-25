@@ -1,7 +1,7 @@
 function addContent() {
     const textNode = document.createElement('div')
     textNode.id = 'main'
-    textNode.innerHTML = `<div id="menu"><div class="menuItem" id="about"><button class='menuBtn'>About Us</button></div>
+    textNode.innerHTML = `<div id="menu"><div class="menuItem" id="about"><button class='menuBtn'>Mead Menu</button></div>
     <div class="menuItem" id="history"><button class='menuBtn'>Our History</button></div>
     <div class="menuItem" id="contact"><button class='menuBtn'>Contact</button></div></div>
     <div id='pageContent'><h1>Thames.mead</h1>

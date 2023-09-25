@@ -21,7 +21,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Thames.mead!',
+      title: 'Thames.mead',
     }),
   ],
   output: {
