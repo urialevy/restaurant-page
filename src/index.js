@@ -7,7 +7,7 @@ function addContent() {
     const textNode = document.createElement('div')
     textNode.id = 'main'
     textNode.innerHTML = `<div id="menu"><div class="menuItem" id="homeBtn"><button class='menuBtn'>Home</button></div><div class="menuItem" id="about"><button class='menuBtn'>Mead Menu</button></div>
-    <div class="menuItem" id="history"><button class='menuBtn'>Our History</button></div>
+    <div class="menuItem" id="history"><button class='menuBtn'>Our History</button></div><div class="menuItem" id="contact"><button class='menuBtn'>Contact us</button></div>
     </div>
     <div id='pageContent'><h1>Thames.mead</h1>
     <h2>As simple as it sounds - mead,  from Thamesmead.</h2>
