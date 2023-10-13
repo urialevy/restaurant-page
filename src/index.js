@@ -1,4 +1,4 @@
-import './style.css'
+import css from './style.css'
 import { aboutPg } from "./menu"
 import { historyPage } from './history'
 import { contactsUs } from './contact'
